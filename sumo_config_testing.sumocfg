@@ -6,7 +6,7 @@
     <time>
         <begin value="0" />
         <end value="86400" />
-        <step-length value="2" />
+        <step-length value="2" /> 
     </time>
     <output>
         <log value="sumo_log.xml" /> 
