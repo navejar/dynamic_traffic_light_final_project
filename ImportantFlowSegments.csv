@@ -1,7 +1,7 @@
 ,segment_id,street,from_street,to_street
 1,1239,"	Halsted","	79th","	83rd"
 1,1203,"	Halsted","	83rd","	79th"
-1,1204,"	Halsted","	79th","	76th"
+1,1204,"	Halsted","	79th","	76th" 
 1,1240,"	Halsted","	76th","	79th"
 1,409,"	79th","	Halsted","	Vincennes"
 1,454,"	79th","	Halsted","	Racine"
