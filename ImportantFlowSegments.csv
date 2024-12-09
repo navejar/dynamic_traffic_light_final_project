@@ -1,0 +1,17 @@
+,segment_id,street,from_street,to_street
+1,1239,"	Halsted","	79th","	83rd"
+1,1203,"	Halsted","	83rd","	79th"
+1,1204,"	Halsted","	79th","	76th"
+1,1240,"	Halsted","	76th","	79th"
+1,409,"	79th","	Halsted","	Vincennes"
+1,454,"	79th","	Halsted","	Racine"
+1,455,"	79th","	Vincennes","	Halsted"
+1,448,"	79th","	Racine","	Halsted"
+2,1238,"	Halsted","	83rd","	87th"
+2,1202,"	Halsted","	87th","	83rd"
+2,273,"	87th","	Halsted","	Racine"
+2,259,"	87th","	Halsted","	Dan Ryan Expy"
+2,274,"	87th","	Dan Ryan Expy","	Halsted"
+2,258,"	87th","	Racine","	Halsted"
+2,1237,Halsted,87th,91st
+2,1201,Halsted,91st,87th
