@@ -1,6 +1,7 @@
 # **IMPORTANT INSTRUCTIONS** (Please Read)
 
-Since many of the `rou.xml` files (for testing and training) were too large to be committed to the Git repository, we were unable to push them to the Git repository (Git does not allow this). These files must be dynamically created by running the code. 
+Since a lot of the rou.xml files (for testing and training) were too large to be committed to the git repo, we were not able to push them to the git repository (git did not allow to do so). Please run create_route_file.ipynb to regenerate a week's worth of training data 
+using information from the database. Essentially, the file create_route_file.ipynb creates all the SUMO rou.xml TRAINING files.
 
 Please follow these steps:
 
@@ -8,8 +9,8 @@ Please follow these steps:
    This will regenerate a week's worth of training data using information from the database.  
    - This notebook creates all the SUMO `rou.xml` **training files**.
 
-2. **Run `testing_route_file_creation.ipynb`**:  
-   This notebook creates the **testing `rou.xml` file** for SUMO.
+2. The TESTING rou.xml file is titled: testing_routes_sumo.rou.xml (The 24-hour XML file is large, so it is shared via this onedrive link: https://utoronto-my.sharepoint.com/:u:/g/personal/t_pazhaidam_mail_utoronto_ca/EWf09oxxA9REjshyd4aNKhgBTMEh8O3lH7czN5KqdKcYJw?e=eeCvhT )
+Please let us know if you have trouble accessing the large testing route file.
 
 3. **SUMO RL Implementation**:  
    The actual SUMO RL implementation, as well as the training and testing code, can be found in:  
