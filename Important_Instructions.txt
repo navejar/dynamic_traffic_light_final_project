@@ -1,0 +1,7 @@
+IMPORTANT INSTRUCTIONS
+Since a lot of the XML files were too large to be committed to the git repo. Please run create_route_file.ipynb to regenerate a week's worth of training data 
+using information from the database. Essentially, the file create_route_file.ipynb creates all the SUMO rou.xml TRAINING files, while the
+file testing_route_file_creation.ipynb creates the TESTING rou.xml file for SUMO. 
+
+The code that was used to extract data, preprocess it, and accumulate the database can be found in traffic_dataset_extraction.ipynb.
+The actual SUMO RL implementation and training and testing code can be found in sumo_environment_train_and_test.ipynb.
