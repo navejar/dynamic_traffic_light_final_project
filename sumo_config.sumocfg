@@ -1,0 +1,15 @@
+<configuration>
+    <input>
+        <net-file value="sumo_network_file_12_33.net.xml" />
+        <route-files value="new_sumo_route-file_at_time_index_56_for_day_0.rou.xml" />
+    </input>
+    <time>
+        <begin value="0" />
+        <end value="600" />
+        <step-length value="3" />
+    </time>
+    <output>
+        <log value="sumo_log.xml" /> 
+        <message-log value="messages.log" /> 
+    </output>
+</configuration>

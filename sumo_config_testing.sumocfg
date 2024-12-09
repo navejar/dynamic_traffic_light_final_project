@@ -1,0 +1,15 @@
+<configuration>
+    <input>
+        <net-file value="sumo_network_file_12_33.net.xml" />
+        <route-files value="testing_routes_sumo.rou.xml" />
+    </input>
+    <time>
+        <begin value="0" />
+        <end value="86400" />
+        <step-length value="2" />
+    </time>
+    <output>
+        <log value="sumo_log.xml" /> 
+        <message-log value="messages.log" /> 
+    </output>
+</configuration>
